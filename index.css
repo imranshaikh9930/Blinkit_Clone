@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Inter:wght@500&family=Poppins:wght@400;600&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Poppins:wght@200;400&family=Roboto+Condensed&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -83,8 +84,8 @@ input {
   margin: auto;
 }
 
-.title{
-    font-family: "Roboto Condensed", sans-serif;
+.title {
+  font-family: "Roboto Condensed", sans-serif;
 }
 .banners-1 {
   width: 80vw;
@@ -219,7 +220,6 @@ input {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-
 .my-card-price {
   display: flex;
   justify-content: space-between;
@@ -258,3 +258,5 @@ footer {
   text-align: center;
   font-family: "Inter", sans-serif;
 }
+
+
