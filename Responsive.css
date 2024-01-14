@@ -13,6 +13,10 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  body{
+    overflow-x: hidden;
+  }
   nav,
   .right-section {
     flex-direction: column;
@@ -21,6 +25,7 @@
     margin: 0;
     padding: 0;
     gap: 15px;
+    width: 100%;
   }
   .right-section-search {
     min-width: 90vw;
@@ -47,23 +52,30 @@
     margin: 0 auto;
   }
   .banners-1 {
-    width: 100%;
+   
     height: auto;
-    overflow: scroll;
-    gap: 4rem;
+    overflow-x: scroll;
+    gap: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow-y: hidden;
+    margin: 0;
+    padding: 0;
   }
   .image-container {
     height: auto;
+    gap: 0;
   }
   .image-container > img {
     width: 23rem;
     height: 15rem;
   }
 
+  .image-container img{
+    height: 180px;
+    white-space: nowrap;
+  }
   /* Product Card -1  */
   .banners-2 {
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
